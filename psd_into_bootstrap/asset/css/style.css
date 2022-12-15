@@ -1,0 +1,186 @@
+.header-container{
+    background-image: url('../images/Header.png');
+    background-size: cover;
+    height: 778px;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: white;
+    margin: 16px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    background-color: white;
+}
+
+.main-menu{
+    color: white;
+}
+img.logo {
+    width: 65px;
+}
+.ml-5 {
+    margin-left: 100px;
+    margin-top: 64px;
+}
+.main-menu-item{
+  background-image: url(../images/Header1.png);
+    background-size: cover;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    position: relative;
+    box-sizing: border-box;
+    width: 83%;
+    margin-left: 52px;
+    z-index: 1;
+    margin-top: 89px;
+}
+
+.service-menu {
+      margin-left: -98px;
+    margin-top: -159px;
+    width: 215px;
+    height: 224px;
+}
+.service-menu >img {
+   width: 30%;
+}
+.service-menu1 {
+    width: 459px;
+    margin-top: -93px;
+    z-index: 1;
+
+}
+button.btn.btn-dark.btn-lg {
+   
+    background: black;
+    cursor: pointer;
+    padding: 11px 78px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+}
+button.btn.bg-white.btn-lg {
+    background: black;
+    cursor: pointer;
+    padding: 11px 78px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+}
+
+button.btn.text-white.bg-dark.btn-lg {
+    background: black;
+    cursor: pointer;
+    padding: 11px 78px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+}
+.backgrouund-color{
+    background-color: black;
+    margin-top:10px;
+}
+
+.main-menu-dash{
+    background-image: url('../images/menu2.png');
+    background-size: cover;
+    height: 778px;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    width:100%;
+    z-index: 1;
+}
+.bg{
+    background-color: black;
+    height:400px;
+    
+}
+.form-container{
+    background-image: url('../images/menu.png');
+    background-size: cover;
+    height: 778px;
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    width:100%;
+
+}
+.subscribe-form form input{
+    padding: 2px;
+    border: none;
+    width: 422px;
+    border-radius: 13px;
+    outline: none;
+
+}
+
+
+element.style {
+}
+.card-img, .card-img-top {
+    /* border-top-left-radius: var(--bs-card-inner-border-radius); */
+    /* border-top-right-radius: var(--bs-card-inner-border-radius); */
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.subscribe-btn{
+    background: #403e3e;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    color: white;
+    padding: 0px 57px;
+    margin-left: -45px;
+
+}
+@media screen and (max-width: 768px) {
+   .main-menu-item-display{
+    display: none;
+   }
+
+    }
+	
+	@media screen and (max-width: 1077px) {
+   
+   .service-menu1 {
+    
+    display: none;
+}
+ 
+
+    }
